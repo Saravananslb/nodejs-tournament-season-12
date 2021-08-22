@@ -1,0 +1,32 @@
+{
+    "statusmessage": "Successful",
+    "statusCode": 1,
+    "data": {
+        "courseList": [
+            {
+                "id": 1,
+                "name": "theory of computation",
+                "type": "computer science",
+                "duration": "6 months",
+                "institutionType": "college",
+                "recommendedTeacher": "pushp singh"
+            },
+            {
+                "id": 2,
+                "name": "Relativity of Physics",
+                "type": "science",
+                "duration": "3 months",
+                "institutionType": "school",
+                "recommendedTeacher": "pushp singh"
+            },
+            {
+                "id": 3,
+                "name": "Algebra",
+                "type": "maths",
+                "duration": "4 months",
+                "institutionType": "school",
+                "recommendedTeacher": "pushp singh"
+            }
+        ]
+    }
+}

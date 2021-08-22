@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-tournament",
+  "version": "1.0.0",
+  "description": "relevel nodejs tournament season 12",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "run-s start-db server",
+    "server": "node src/server",
+    "start-db": "brew services start mongodb-community@4.4",
+    "stop-db": "brew services stop mongodb-community@4.4",
+    "mongo": "mongo"
+  },
+  "keywords": [
+    "Express",
+    "RestAPI",
+    "MongoDB",
+    "teachers",
+    "courses",
+    "students"
+  ],
+  "author": "Pushp Singh",
+  "email": "pushp.ranjansingh@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.13.2",
+    "npm-run-all": "^4.1.5"
+  }
+}

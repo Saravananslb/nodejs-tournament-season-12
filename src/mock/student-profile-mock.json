@@ -1,0 +1,26 @@
+
+{
+    "statusmessage": "Successful",
+    "statusCode": 1,
+    "data": {
+        "studentList": [
+            {
+                "studentId": 1,
+                "studentName": "pushp",
+                "studentEmail": "pushp@gmail.com",
+                "institutionName": "DAV senior secondary scchool",
+                "institutionType": "school",
+                "courseName": "science"
+            },
+            {
+                "studentId": 2,
+                "studentName": "rahul",
+                "studentEmail": "rahul@gmail.com",
+                "institutionName": "BIT Mesra",
+                "institutionType":"college",
+                "courseName": "Mechanical engineering"
+            }
+        ]
+    }
+ }
+ 
