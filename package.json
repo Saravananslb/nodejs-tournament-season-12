@@ -4,6 +4,7 @@
   "description": "relevel nodejs tournament season 12",
   "main": "src/index.js",
   "scripts": {
+    "start": "nodemon src/server/index.js",
     "dev": "run-s start-db server",
     "server": "node src/server",
     "start-db": "brew services start mongodb-community@4.4",
@@ -18,12 +19,14 @@
     "courses",
     "students"
   ],
-  "author": "Pushp Singh",
-  "email": "pushp.ranjansingh@gmail.com",
+  "author": "Saravanan N",
+  "email": "saravananslb2015@gmail.com",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.13.2",
+    "nodemon": "^2.0.15",
     "npm-run-all": "^4.1.5"
   }
 }

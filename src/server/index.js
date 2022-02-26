@@ -1,7 +1,6 @@
 // all server related main configs are imported here.
 
 const express = require('express');
-
 const databaseConfig = require('../database');
 
 const app = express();
@@ -23,5 +22,5 @@ app.get('/home', (req, res) => {
 require('../app/routes')(app);
 
 app.listen(PORT, () => {
-    console.log(`\n server is listening to http://localhost:${PORT}`)
+    console.log(`server is listening to http://localhost:${PORT}`)
 });
